@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+.main{
+    width: 100%;
+    padding: 50px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.mylogo{
+    width: 200px;
+}
+
+.navbar{
+    padding-left: 50px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    border: 2px solid lime;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    background: white;
+}
+
+.btn:hover{
+    background: lightblue;
+    border: none;
+}
+
+.btn2:hover{
+    background: lightblue;
+}
+
+.btn2{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background: lime;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+
+.main2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main2 h2{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 1000;
+}
+
+.up{
+    padding-top: 20px;
+}
+
+.main2 p{
+    font: 20px;
+    padding-top: 5px;
+    font-weight: 300;
+    animation-delay: 0.5s;
+}
+
+.sign{
+    padding-top: 20px;
+}
+
+.sign a{
+    text-decoration: none;
+    color: lime;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.photo1{
+    padding-top: 70px;
+    padding-left: 340px;
+}
+
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.main3{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.main3 h2{
+    animation-delay: 0.5s;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.main3 p{
+    margin-top: 10px;
+    margin-left: 5px;
+    animation-delay: 1s;
+}
+
+.anim2{
+    opacity: 0;
+    transform: translateX(30px);
+    animation: moveleft 0.5s linear forwards;
+}
+
+@keyframes moveleft{
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
